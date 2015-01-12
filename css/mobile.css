@@ -1,0 +1,106 @@
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.alpha,
+.omega {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.align_center,
+.align_right {
+  text-align: left;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container_12:before,
+.container_12:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.container_12:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container_12 {
+  zoom: 1;
+}
+#logo-header h1 a {
+	float: left;
+	margin: 5px 0;	
+}
+#mobile-menu-btn {
+	display: none;
+	float: right;
+	color: #fdf56c;
+	font: 300 100%/1em 'Raleway', sans-serif;
+	text-transform: uppercase;
+	margin-top: 25px;
+	background: url(../images/mobile-menu-btn.png) no-repeat 0 3px;
+	padding-left: 30px; /* allow space on left for menu icon */
+}
+/* javascript will reveal and hide mobile nav */
+#main-nav {display: none;}
+#main-nav ul, #main-nav ul li, #main-nav ul li a {
+	display: block;
+}
+#main-nav ul li {
+	width: 100%;
+	text-align: center;	
+}
+section {
+	padding: 100px 0 50px;	
+}
+#home {text-align: left;}
+#big-illustration {
+	max-width: 580px;
+	margin: 0 auto;	
+}
+#tour .tourEntry {
+	font-size: .9em;
+	line-height: 1.2em;
+	display: table;
+	width: 100%;	
+}
+#tour .tourDate {
+	display: table-cell;
+	width: 44px;
+}
+#tour .tourInfo {display: table-cell;}
+
+
+
+
+
+
+
